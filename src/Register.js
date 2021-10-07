@@ -4,7 +4,7 @@ function Register() {
     return (
         <Card style={{ width: '18rem' }}>
             <Card.Body>
-                <Form>
+                <Form method="post">
                     <Form.Group className="mb-3" controlId="formBasicFirst">
                         <Form.Label>Firstname</Form.Label>
                         <Form.Control type="text" placeholder="Firstname" />
